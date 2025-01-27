@@ -10,6 +10,18 @@
     transform: translate(-50%, -50%);
 }
 
+button {
+    background: #282A3A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18pt;
+    padding-bottom: 12px;
+}
+
 .controls {
     display: flex;
     gap: 20px;
