@@ -1,20 +1,6 @@
 {
-    "version": 2,
-    "builds": [{
-        "src": "dist/**",
-        "use": "@vercel/static"
-    }],
     "routes": [{
-            "src": "/",
-            "dest": "/index.html"
-        },
-        {
-            "src": "/temp",
-            "dest": "/index.html"
-        },
-        {
-            "src": "/game",
-            "dest": "/index.html"
-        }
-    ]
+        "src": "/[^.]+",
+        "dest": "/"
+    }]
 }
