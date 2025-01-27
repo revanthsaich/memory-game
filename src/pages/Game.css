@@ -112,6 +112,7 @@ button {
 .win-text {
     position: relative;
     top: 20px;
+    margin-bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 24pt;
